@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Set background image properties */
+    background-image: url('gas.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    color: #222; /* Dark black font color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for container */
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light gray background for form inputs */
+    border: 1px solid #ccc; /* Gray border for form inputs */
+    border-radius: 5px; /* Rounded corners for form inputs */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Add hover effect for form inputs */
+input:hover,
+textarea:hover,
+select:hover {
+    background-color: #e6e6e6; /* Light gray background on hover */
+}
